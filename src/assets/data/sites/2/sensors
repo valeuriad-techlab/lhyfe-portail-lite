@@ -1,0 +1,38 @@
+[
+    {
+        "id": 4,
+        "model": "capteur 4",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 5,
+        "model": "capteur 5",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 6,
+        "model": "capteur 6",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 7,
+        "model": "capteur 7",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 8,
+        "model": "capteur 8",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 9,
+        "model": "capteur 9",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    }
+]

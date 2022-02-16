@@ -1,0 +1,36 @@
+<div class="row mat-typography">
+    <div class="col col-12 col-md-8 col-lg-9">
+        <div class="d-flex justify-content-start">
+            <div class="p-2">
+                <b i18n>Personal space</b>
+            </div>
+            <div class="p-2">
+                <img src="assets/img/logo_lhyfe_black.svg" i18n-alt
+                    alt="Lhyfe : producer of renewable and ecological hydrogen">
+            </div>
+            <div class="p-2">
+                <img id="emoji-smiling-face" src="assets/img/emoji-smiling-face.svg" alt="Smiling face" width="18"
+                    height="18" />
+                <span id="banner-text" i18n>My Container Status Dashboard</span>
+            </div>
+        </div>
+    </div>
+    <div class="col col-lg-3 d-none d-lg-block">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-end">
+                    <div>
+                        <button mat-raised-button *ngIf="isLoggedIn" type="button" class="btn btn-secondary btn-sm"
+                            (click)="logout()">
+                            <img id="logout-img" src="assets/img/se-deconnecter.png" i18n-alt alt="logout" width="18"
+                                height="18"><span i18n>logout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <a i18n-href href="https://en.lhyfe.com/" i18n>return to the Lhyfe website ></a>
+            </div>
+        </div>
+    </div>
+</div>

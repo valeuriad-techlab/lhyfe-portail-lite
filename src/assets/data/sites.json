@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"company_id": 1,
+		"name": "Site 1",
+		"latitude": 1.000,
+		"longitude": 1.000,
+		"contact": "",
+		"type": ""
+	},
+	{
+		"id": 2,
+		"company_id": 1,
+		"name": "Site 2",
+		"latitude": 1.000,
+		"longitude": 1.000,
+		"contact": "",
+		"type": ""
+	},
+	{
+		"id": 3,
+		"company_id": 1,
+		"name": "Site 3",
+		"latitude": 1.000,
+		"longitude": 1.000,
+		"contact": "",
+		"type": ""
+	},
+	{
+		"id": 4,
+		"company_id": 1,
+		"name": "Site de Nantes",
+		"latitude": 1.000,
+		"longitude": 1.000,
+		"contact": "",
+		"type": ""
+	}
+]

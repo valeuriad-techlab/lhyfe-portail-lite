@@ -1,0 +1,34 @@
+[
+    {
+        "id": 13,
+        "model": "capteur 13",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 14,
+        "model": "capteur 14",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 15,
+        "model": "capteur 15",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 16,
+        "model": "XYWZIU",
+        "site_id": 1,
+        "supplier": "someone1",
+        "supplier_id": "assets_monitoring@device-8c192d7000071063"
+    },
+    {
+        "id": 17,
+        "model": "XYWZIU(MIN)",
+        "site_id": 1,
+        "supplier": "someone1",
+        "supplier_id": "assets_monitoring@device-8c192d7000071063"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 10,
+        "model": "capteur 10",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 11,
+        "model": "capteur 11",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 12,
+        "model": "capteur 12",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    }
+]

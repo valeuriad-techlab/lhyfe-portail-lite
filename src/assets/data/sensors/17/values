@@ -1,0 +1,16 @@
+[
+    {
+        "id": 2233,
+        "pressure": 157.91539,
+        "pressure_sensor_temperature": 1.0,
+        "sensor_id": 16,
+        "timestamp": "2022-01-26T09:21:03"
+    },
+    {
+        "id": 8482,
+        "pressure": 224.58914,
+        "pressure_sensor_temperature": 14.0,
+        "sensor_id": 16,
+        "timestamp": "2022-02-16T14:56:03"
+    }
+]

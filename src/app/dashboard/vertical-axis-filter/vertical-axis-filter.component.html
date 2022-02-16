@@ -1,0 +1,11 @@
+<h6>
+  <mat-icon>remove_red_eye</mat-icon><span i18n>My data to display</span>
+</h6>
+<form [formGroup]="filterAxisForm">
+  <div>
+    <mat-checkbox formControlName="displayTemperature" [checked]="true" i18n>Temperature data</mat-checkbox>
+  </div>
+  <div>
+    <mat-checkbox formControlName="displayPressure" [checked]="true" i18n>Pressure data</mat-checkbox>
+  </div>
+</form>

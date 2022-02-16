@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5563638065624265135" datatype="html">
+        <source>Pin icon</source>
+        <target>icone d'épingle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5041309132637901949" datatype="html">
+        <source>My sensors</source>
+        <target>Mes capteurs</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1349804395869213595" datatype="html">
+        <source>The sensors are group by geographical area. Select the sensors for which you want to know the temperature and pressure data</source>
+        <target>Les capteurs sont classés par site géographique. Sélectionnez les capteurs pour lesquels vous souhaitez connaitre les données de température et de pression</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6473676874334611167" datatype="html">
+        <source>Select in the list the sensors to display</source>
+        <target>Selectionner dans la liste les capteur à afficher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6069095331082414362" datatype="html">
+        <source>My selected sensors</source>
+        <target>Mes capteurs selectionnés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6421460271971606186" datatype="html">
+        <source>Zoom</source>
+        <target>Zoom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3689787256591337097" datatype="html">
+        <source>To zoom on the graph, select the area to be analyzed by clicking ont the start and end point on the graph</source>
+        <target>Pour zoomer sur le graph, sélectionnez la zone à analyser en cliquant sur le point de début et de fin sur le graph</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6271769949982801396" datatype="html">
+        <source>Date and time (UTC)</source>
+        <target>Date et heures (UTC)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/graphic/graphic.component.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1767949528592933264" datatype="html">
+        <source>Temperature in °C</source>
+        <target>Température en °C</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/graphic/graphic.component.ts</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2242765313617856202" datatype="html">
+        <source>Pressure in bar</source>
+        <target>Pression en bar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/graphic/graphic.component.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1994908841686490726" datatype="html">
+        <source>My analyzed period</source>
+        <target>Ma période analysée</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1507949699959470925" datatype="html">
+        <source>Period</source>
+        <target>Période</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3287318848532283909" datatype="html">
+        <source>Date selection</source>
+        <target>Sélection des dates</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9186529157286281693" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Dernières 24h</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4873149362496451858" datatype="html">
+        <source>Last 7 days</source>
+        <target>7 derniers jours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2949150997160654358" datatype="html">
+        <source>Last 30 days</source>
+        <target>30 derniers jours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1999582740569030662" datatype="html">
+        <source>Last 60 days</source>
+        <target>60 derniers jours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/time-axis-filter/time-axis-filter.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4229489568059279783" datatype="html">
+        <source>Data refresh</source>
+<target>Actualisation des données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8994778980842531354" datatype="html">
+        <source>refresh</source>
+        <target>Rafraichir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="134367509790298515" datatype="html">
+        <source>manually</source>
+        <target>manuelle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7512627169593263348" datatype="html">
+        <source>every 5 minutes</source>
+        <target>toutes les 5 minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6358772576412222924" datatype="html">
+        <source>every 15 minutes</source>
+        <target>toutes les 15 minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7984259297974692548" datatype="html">
+        <source>every 30 minutes</source>
+        <target>toutes les 30 minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/update-period/update-period.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1270659262421975542" datatype="html">
+        <source>My data to display</source>
+        <target>Mes données à afficher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/vertical-axis-filter/vertical-axis-filter.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5824722020342408059" datatype="html">
+        <source>Temperature data</source>
+        <target>Données de température</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/vertical-axis-filter/vertical-axis-filter.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7094099392497478453" datatype="html">
+        <source>Pressure data</source>
+        <target>Données de pression</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/dashboard/vertical-axis-filter/vertical-axis-filter.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3062823154413146484" datatype="html">
+        <source>Personal space</source>
+        <target>Espace personnel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5245324252780805764" datatype="html">
+        <source>Lhyfe : producer of renewable and ecological hydrogen</source>
+        <target>Lhyfe : producteur d’hydrogène renouvelable et écologique</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1463940529474652023" datatype="html">
+        <source>My Container Status Dashboard</source>
+        <target>Mon tableau de bord sur l'état des containers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1810017607161915196" datatype="html">
+        <source>logout</source>
+        <target>Se deconnecter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="943176291911174115" datatype="html">
+        <source>https://en.lhyfe.com/</source>
+        <target>https://fr.lhyfe.com/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8705797680908182385" datatype="html">
+        <source>return to the Lhyfe website &gt;</source>
+        <target>revenir sur le site de Lhyfe &gt;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6570363013146073520" datatype="html">
+        <source>Dashboard</source>
+        <target>Tableau de bord</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5363940464046088994" datatype="html">
+        <source>Profil</source>
+        <target>Profil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2250922476634643797" datatype="html">
+        <source>Parameters</source>
+        <target>Paramètres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/nav-bar/nav-bar.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

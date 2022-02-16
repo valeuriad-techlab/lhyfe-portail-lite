@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col col-lg-3">
+        {{site.name}}
+    </div>
+    <mat-chip-list #chipList aria-label="Sensor selection" class="col col-lg-9">
+        <mat-chip *ngFor="let sensor of sensors" (removed)="remove(sensor)" class="w-33">
+            {{sensor.model}}
+            <button matChipRemove>
+                <mat-icon>cancel</mat-icon>
+            </button>
+        </mat-chip>
+    </mat-chip-list>
+</div>

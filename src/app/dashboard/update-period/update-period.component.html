@@ -1,0 +1,22 @@
+<h6>
+  <mat-icon>refresh</mat-icon><span i18n>Data refresh</span>
+</h6>
+<div class="row">
+  <div class="col">
+    <mat-form-field appearance="outline">
+      <mat-label>Select</mat-label>
+      <mat-select [formControl]="selectPeriodRefresh" autosize>
+        <mat-option *ngFor="let periodRefresh of periodRefreshList" [value]="periodRefresh.value">
+          {{periodRefresh.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="col">
+    <button mat-raised-button type="button" class="btn btn-dark btn-sm" (click)="refreshManually()"
+      *ngIf="selectPeriodRefresh.value == periodRefreshList[0].value">
+      <img id="refresh-img" src="assets/img/option-dactualisation-de-la-page-blanc.png" i18n-alt alt="refresh" width="18" height="18">
+      Refresh
+    </button>
+  </div>
+</div>

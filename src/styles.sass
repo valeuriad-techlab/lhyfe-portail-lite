@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css'
+
+@import '~@angular/material/theming'
+    
+@font-face 
+    font-family: "Space Grotesk"
+    src: url("assets/fonts/SpaceGrotesk-Bold.ttf")
+    src: url("assets/fonts/SpaceGrotesk-Bold.ttf")
+    src: url("assets/fonts/SpaceGrotesk-Light.ttf")
+    src: url("assets/fonts/SpaceGrotesk-Medium.ttf")
+    src: url("assets/fonts/SpaceGrotesk-Regular.ttf")
+    src: url("assets/fonts/SpaceGrotesk-SemiBold.ttf")
+
+$custom-typography: mat-typography-config($font-family: "Space Grotesk")
+
+@include mat-core($custom-typography)

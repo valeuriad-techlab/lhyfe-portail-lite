@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "location_id": 1,
+        "model": "capteur 1",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 2,
+        "location_id": 2,
+        "model": "capteur 2",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    },
+    {
+        "id": 3,
+        "location_id": 3,
+        "model": "capteur 3",
+        "supplier": "",
+        "Acquisition_date": "20-01-2022 12:17:12"
+    }
+]

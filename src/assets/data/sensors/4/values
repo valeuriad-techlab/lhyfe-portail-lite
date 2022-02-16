@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "sensor_id": 2,
+        "pressure": 500.0,
+        "pressure_sensor_temperature": 500.0,
+        "timestamp": "Mon, 21 Jan 2022 00:10:30 -0000"
+    },
+    {
+        "id": 2,
+        "sensor_id": 2,
+        "pressure": 400.0,
+        "pressure_sensor_temperature": 400.0,
+        "timestamp": "Mon, 22 Jan 2022 00:10:35 -0000"
+    },
+    {
+        "id": 3,
+        "sensor_id": 2,
+        "pressure": 300.0,
+        "pressure_sensor_temperature": 300.0,
+        "timestamp": "Mon, 23 Jan 2022 00:10:40 -0000"
+    },
+    {
+        "id": 4,
+        "sensor_id": 2,
+        "pressure": 200.0,
+        "pressure_sensor_temperature": 200.0,
+        "timestamp": "Mon, 24 Jan 2022 00:10:40 -0000"
+    }
+]

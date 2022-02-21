@@ -1,12 +1,11 @@
-<lib-lhyfe-nav></lib-lhyfe-nav>
 <div class="col-auto d-block d-lg-none">
-    <app-nav-bar></app-nav-bar>
+    <lib-lhyfe-navbar [navBarLinks]="navBarLinks"></lib-lhyfe-navbar>
 </div>
 
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col-auto d-none d-lg-block">
-            <app-nav></app-nav>
+            <lib-lhyfe-nav [navLinks]="navLinks"></lib-lhyfe-nav>
         </div>
         <div class="col">
             <app-banner></app-banner>

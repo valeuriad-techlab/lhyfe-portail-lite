@@ -26,24 +26,24 @@ export class AppComponent implements OnInit {
     {
       url: '/dashboard',
       icon: "line-chart",
-      label: "Dashboard"
+      label: $localize `Dashboard`
     },
     {
       url: '/user-account',
       icon: "user",
-      label: "Profil",
+      label: $localize `Profil`,
       hidden: true
     },
     {
       url: '/settings',
       icon: "settings",
-      label: "Parameters",
+      label: $localize `Parameters`,
       hidden: true
     },
     {
       url: '/contact',
       icon: "call",
-      label: "Contact",
+      label: $localize `Contact`,
       hidden: true
     }
   ];

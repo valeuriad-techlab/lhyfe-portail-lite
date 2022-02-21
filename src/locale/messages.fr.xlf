@@ -30,6 +30,18 @@
           <context context-type="linenumber">58,59</context>
         </context-group>
       </trans-unit>
+            <trans-unit id="943176291911174115" datatype="html">
+        <source>https://en.lhyfe.com/</source>
+        <target>https://fr.lhyfe.com/</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/lhyfe-components/src/lib/lhyfe-navbar/lhyfe-navbar.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">projects/lhyfe-portail/src/app/banner/banner.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="8705797680908182385" datatype="html">
         <source>return to the Lhyfe website &gt;</source>
         <target>revenir sur le site de Lhyfe &gt;</target>
@@ -116,14 +128,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">projects/lhyfe-portail/src/app/banner/banner.component.html</context>
           <context context-type="linenumber">14,15</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="943176291911174115" datatype="html">
-        <source>https://en.lhyfe.com/</source>
-        <target>https://fr.lhyfe.com/</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">projects/lhyfe-portail/src/app/banner/banner.component.html</context>
-          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5563638065624265135" datatype="html">
@@ -336,38 +340,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">projects/lhyfe-portail/src/app/dashboard/vertical-axis-filter/vertical-axis-filter.component.html</context>
           <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>     
-      <trans-unit id="6570363013146073520" datatype="html">
-        <source>Dashboard</source>
-        <target>Tableau de bord</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">projects/lhyfe-portail/src/app/nav-bar/nav-bar.component.html</context>
-          <context context-type="linenumber">15,16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5363940464046088994" datatype="html">
-        <source>Profil</source>
-        <target>Profil</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">projects/lhyfe-portail/src/app/nav-bar/nav-bar.component.html</context>
-          <context context-type="linenumber">26,27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2250922476634643797" datatype="html">
-        <source>Parameters</source>
-        <target>Paramètres</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">projects/lhyfe-portail/src/app/nav-bar/nav-bar.component.html</context>
-          <context context-type="linenumber">37,38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7922989125096435449" datatype="html">
-        <source>Contact</source>
-        <target>Contact</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">projects/lhyfe-portail/src/app/nav-bar/nav-bar.component.html</context>
-          <context context-type="linenumber">48,49</context>
         </context-group>
       </trans-unit>
     </body>

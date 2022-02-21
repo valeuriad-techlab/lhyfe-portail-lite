@@ -22,7 +22,6 @@ import { LhyfeComponentsModule } from 'projects/lhyfe-components/src/public-api'
 import { environment } from './../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BannerComponent } from './banner/banner.component';
 import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { GraphicComponent } from './dashboard/graphic/graphic.component';
@@ -44,7 +43,6 @@ PlotlyModule.plotlyjs = PlotlyJS;
     GraphicComponent,
     UserAccountComponent,
     NavComponent,
-    BannerComponent,
     SiteFilterComponent,
     VerticalAxisFilterComponent,
     timeAxisFilterComponent,
@@ -57,7 +55,6 @@ PlotlyModule.plotlyjs = PlotlyJS;
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    KeycloakAngularModule,
     MatCardModule,
     MatIconModule,
     MatFormFieldModule,

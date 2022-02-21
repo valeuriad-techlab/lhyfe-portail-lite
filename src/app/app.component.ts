@@ -21,27 +21,6 @@ export class AppComponent implements OnInit {
   }
 
   title = 'lhyfe-portail';
-  navLinks: LhyfeNavLink[] = [
-    {
-      url: '/dashboard',
-      icon: "line-chart"
-    },
-    {
-      url: '/user-account',
-      icon: "user",
-      hidden: true
-    },
-    {
-      url: '/settings',
-      icon: "settings",
-      hidden: true
-    },
-    {
-      url: '/contact',
-      icon: "call",
-      hidden: true
-    }
-  ];
 
   navBarLinks: LhyfeNavbarLink[] = [
     {
@@ -65,6 +44,28 @@ export class AppComponent implements OnInit {
       url: '/contact',
       icon: "call",
       label: "Contact",
+      hidden: true
+    }
+  ];
+
+  navLinks: LhyfeNavLink[] = [
+    {
+      url: '/dashboard',
+      icon: "line-chart"
+    },
+    {
+      url: '/user-account',
+      icon: "user",
+      hidden: true
+    },
+    {
+      url: '/settings',
+      icon: "settings",
+      hidden: true
+    },
+    {
+      url: '/contact',
+      icon: "call",
       hidden: true
     }
   ];

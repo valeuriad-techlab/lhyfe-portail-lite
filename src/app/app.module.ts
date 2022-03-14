@@ -1,7 +1,7 @@
 import { LayoutModule } from '@angular/cdk/layout';
 import { DatePipe } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -15,7 +15,6 @@ import { MatSelectModule } from '@angular/material/select';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PlotlyModule } from 'angular-plotly.js';
-import { KeycloakAngularModule } from 'keycloak-angular';
 import { LhyfeNavModule } from 'lhyfe-nav';
 import * as PlotlyJS from 'plotly.js-dist-min';
 import { LhyfeComponentsModule } from 'projects/lhyfe-components/src/public-api';
@@ -29,8 +28,6 @@ import { SiteFilterComponent } from './dashboard/site-filter/site-filter.compone
 import { timeAxisFilterComponent } from './dashboard/time-axis-filter/time-axis-filter.component';
 import { UpdatePeriodComponent } from './dashboard/update-period/update-period.component';
 import { VerticalAxisFilterComponent } from './dashboard/vertical-axis-filter/vertical-axis-filter.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { NavComponent } from './nav/nav.component';
 import { SettingsComponent } from './settings/settings.component';
 import { UserAccountComponent } from './user-account/user-account.component';
 
@@ -42,12 +39,10 @@ PlotlyModule.plotlyjs = PlotlyJS;
     DashboardComponent,
     GraphicComponent,
     UserAccountComponent,
-    NavComponent,
     SiteFilterComponent,
     VerticalAxisFilterComponent,
     timeAxisFilterComponent,
     UpdatePeriodComponent,
-    NavBarComponent,
     SettingsComponent,
     ContactComponent
   ],
@@ -71,15 +66,16 @@ PlotlyModule.plotlyjs = PlotlyJS;
     FormsModule,
     ReactiveFormsModule,
     LhyfeNavModule,
-    LhyfeComponentsModule.forRoot({ 
+    LhyfeComponentsModule.forRoot({
       keycloakUrl: environment.keycloak.url,
       keycloakRealm: environment.keycloak.realm,
       keycloakClientId: environment.keycloak.clientId,
-     })
+    })
   ],
-  providers: [    
+  providers: [
     DatePipe
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
